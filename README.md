@@ -3,19 +3,18 @@
 
 ## Annotation example
 
-<center class="half">    <img src="img/1.png" width="550"/>    <img src="img/466.png" width="550"/> </center>
-
-<center class="half">    <img src="img/1060.png" width="550"/>    <img src="img/1331.png" width="550"/> </center>
+<div align=center>
+<img src="img/1.png" width="500" height="500"><img src="img/466.png" width="500" height="500">
+<img src="img/1060.png" width="500" height="500"/><img src="img/1331.png" width="500" height="500"/>
+</div>
 
 ## Introduction
 
-```bash
-	This dataset is an underground parking lot data set for autonomous valet parking tasks. It includes a ROS bag, 3K+ BEV(Bird's Eye View) picture, and the BEV picture is obtained by IPM(Inverse perspective Map). Supports the following tasks: visual SLAM, Lidar SLAM, semantic segmentation, semantic regression/point regression, depth estimation, parking spot detection, etc.
+​	This dataset is an underground parking lot data set for autonomous valet parking tasks. It includes a ROS bag, 3K+ BEV(Bird's Eye View) picture, and the BEV picture is obtained by IPM(Inverse perspective Map). Supports the following tasks: visual SLAM, Lidar SLAM, semantic segmentation, semantic regression/point regression, depth estimation, parking spot detection, etc.
 
    The underground parking lot covers an area of approximately 50000 square meters, with over 250 parking spaces and a road length of approximately 1km. This scene includes walls, pillars, static vehicles, parking spaces, no parking area signs, speed bumps, arrows, lane lines, etc.
 
    We record the dataset using ROS bag format and provide annotated BEV images with five types of annotated elements: parking spaces, lane lines, no parking area signs, speed bumps, and arrows (a total of seven types of arrows). The sensors used to record the dataset include:
-```
 
 - 4x Fisheye cameras surround
 - 1x IMU
@@ -99,8 +98,8 @@ python demo.py --load_model ../models/model_last.pth
 
 ## Regression Results
 
-<center class="half">    <img src="img/359.jpg" width="550"/>    <img src="img/2888.jpg" width="550"/> </center>
-
-<center class="half">    <img src="img/3275.jpg" width="550"/>    <img src="img/3790.jpg" width="550"/> </center>
-
+<div align=center>
+<img src="img/359.jpg" width="500" height="500"><img src="img/2888.jpg" width="500" height="500">
+<img src="img/3275.jpg" width="500" height="500"/><img src="img/3790.jpg" width="500" height="500"/>
+</div>
 **note:**  In order to reduce the storage capacity, the detection results of the arrows are represented only by skeleton points, and the output results of other elements are the same as when marked.
