@@ -1,11 +1,10 @@
-# AVP_Dataset
 # RVD-UPL: A Real Vehicle Dataset of Underground Parking Lots for Autonomous Valet Parking
 
 ## Annotation example
 
 <div align=center>
-<img src="img/1.png" width="200" height="200"><img src="img/466.png" width="200" height="200">
-<img src="img/1060.png" width="200" height="200"/><img src="img/1331.png" width="200" height="200"/>
+<img src="img/1.png" width="300" height="300"><img src="img/466.png" width="300" height="300">
+<img src="img/1060.png" width="300" height="300"/><img src="img/1331.png" width="300" height="300"/>
 </div>
 
 ## Introduction
@@ -99,7 +98,7 @@ python demo.py --load_model ../models/model_last.pth
 ## Regression Results
 
 <div align=center>
-<img src="img/359.jpg" width="500" height="500"><img src="img/2888.jpg" width="500" height="500">
-<img src="img/3275.jpg" width="500" height="500"/><img src="img/3790.jpg" width="500" height="500"/>
+<img src="img/359.jpg" width="300" height="300"><img src="img/2888.jpg" width="300" height="300">
+<img src="img/3275.jpg" width="300" height="300"/><img src="img/3790.jpg" width="300" height="300"/>
 </div>
-**note:**  In order to reduce the storage capacity, the detection results of the arrows are represented only by skeleton points, and the output results of other elements are the same as when marked.
+note:  In order to reduce the storage capacity, the detection results of the arrows are represented only by skeleton points, and the output results of other elements are the same as when marked.
