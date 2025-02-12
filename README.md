@@ -4,8 +4,8 @@
 ## Annotation example
 
 <div align=center>
-<img src="img/1.png" width="500" height="500"><img src="img/466.png" width="500" height="500">
-<img src="img/1060.png" width="500" height="500"/><img src="img/1331.png" width="500" height="500"/>
+<img src="img/1.png" width="450" height="450"><img src="img/466.png" width="450" height="450">
+<img src="img/1060.png" width="450" height="450"/><img src="img/1331.png" width="450" height="450"/>
 </div>
 
 ## Introduction
